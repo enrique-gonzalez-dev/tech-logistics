@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: #eee;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+}
+
+input {
+    border: solid 0;
+    border-radius: 3px;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    width: 370px;
+}
+
+input[type=submit] {
+    background-color: #1E69E3;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.opcion {
+    padding: 5px 0;
+}
+
+.barra {
+    background-color: rgb(152, 196, 236);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.seleccionado {
+    background-color: rgb(33, 90, 143);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
+
+#menu {
+    background-color: #eee;
+    padding: 10px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #1E69E3;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(227, 109, 30);
+    text-decoration: none;
+}
+
+.cerrar-sesion {
+    float: right;
+}
+
+ul li .white {
+    color: #fff;
+}
+
+.inpSearch {
+    border: 5px solid #eee;
+    border-radius: 5px;
+}
+
+.icon-lg {
+    font-size: 19px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.dropdown {
+    padding: 10px 0;
+}
+
+.contenedor {
+    padding: 10px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 88%;
+}
+
+
+/* Ocultar boton*/
+
+.botonno {
+    display: none;
+}
+
+
+/* */
+
+.iconCal {
+    align-items: center;
+    padding: 5px;
+    color: #536878;
+}
+
+.choferSelect {
+    inline-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: gray;
+}
+
+.line-div {
+    background-color: lightgray;
+    padding: 0;
+    max-width: 90%;
+    ;
+}
